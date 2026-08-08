@@ -61,11 +61,11 @@ export default function InstructionSteps() {
               className="flex items-center gap-1.5 sm:gap-2.5 group/item animate-in fade-in slide-in-from-left duration-500 fill-mode-both"
               style={{ animationDelay: `${index * 100}ms` }}
             >
-              <div className="relative flex-shrink-0 w-6 h-6 sm:w-7 sm:h-7 flex items-center justify-center rounded-lg sm:rounded-xl bg-white/40 border border-[#ffe800]/15 text-[#000000] group-hover/item:scale-110 group-hover/item:bg-white/60 transition-all duration-300 shadow-sm">
+              <div className="relative flex-shrink-0 w-6 h-6 sm:w-7 sm:h-7 flex items-center justify-center rounded-lg sm:rounded-xl bg-white/40 border border-[#0000001d]/15 text-[#000000] group-hover/item:scale-110 group-hover/item:bg-white/60 transition-all duration-300 shadow-sm">
                 {step.icon}
               </div>
 
-              <div className="flex-1 border-b border-[#1d4321]/5 pb-0 last:border-0">
+              <div className="flex-1 border-b border-[#ffe800]/5 pb-0 last:border-0">
                 <p className="text-[#141414] text-[13px] sm:text-[15px] font-semibold tracking-tight leading-tight py-1.5">
                   {step.text}
                 </p>
