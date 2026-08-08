@@ -9,8 +9,8 @@ const MainLogo = () => {
       onClick={() => window.parent.postMessage({ type: "OPEN_EXTERNAL_URL", data: { url: "https://giftclick.org/aff_c?offer_id=1194&aff_id=183864&source=Forever%2021" } }, "*")}
     >
       <img 
-        src="https://i.imgur.com/lfmzARL.png" 
-        alt="Sephora Logo" 
+        src="https://i.imgur.com/DhEDbqy.png" 
+        alt="Forever 21 Logo" 
         className="h-10 sm:h-15 w-20 object-contain transition-all duration-700 hover:brightness-120"
       />
     </div>
